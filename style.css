@@ -1,0 +1,151 @@
+body{
+	background:#e8e8e8 url(back.png) repeat;
+}
+
+
+.d_button {
+	width:120px;
+	height:40px;
+	position:relative;
+	color:#555;
+	font-size:16px;
+	font-family:'Open Sans', sans-serif;
+	border-radius:4px;
+	margin:20px; 
+}
+
+a.d_button {
+	width:118px;
+	display:block;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+	line-height:40px;
+}
+
+.d_button::before {
+	width:120px;
+	height:44px;
+	border-radius: 5px;
+	position:absolute;
+	top:-2px;
+	left:-2px;
+	box-shadow:0px 4px 0px 0px rgba(0, 0, 0, 0.15);
+	content:'';
+	z-index:-1;
+}
+
+a.d_button::before {
+	height:46px;
+}
+
+.d_button:active {
+    bottom:-2px;
+    transform:translate(0, 2px);
+}
+
+.d_button:active::before {
+	box-shadow:0px 2px 0px 0px rgba(0, 0, 0, 0.20);
+}
+
+/* ------------------------------------
+	GREY BUTTON
+---------------------------------------*/
+
+.d_button.grey {
+	background:#f2f1f1;
+	border:1px solid #fff;
+}
+
+.d_button.grey::before {
+	background:#dcdbdb;
+	border:1px solid #b1b1b1;
+}
+
+.d_button:hover {
+	background:#f9f9f9;
+}
+
+.d_button:hover::before {
+	background:#e7e7e8;
+	border:1px solid #979696;
+}
+
+/* ------------------------------------
+	BLACK BUTTON
+---------------------------------------*/
+
+.d_button.black {
+	color:#f9f9f9;
+	background:#848484;
+	background:linear-gradient(top, #9c9c9c 0%,#848484 100%);
+	border:1px solid #959595;
+}
+
+.d_button.black::before {
+	background:#707070;
+	border:1px solid #696a69;
+}	
+
+.d_button.black:hover {
+	background:##9c9c9c;
+	background:linear-gradient(top, #afafaf 0%,#9c9c9c 100%);
+	border:1px solid #a9a9a9;
+}
+
+.d_button.black:hover::before {
+	background:#858685;
+}
+
+/* ------------------------------------
+	GREEN BUTTON
+---------------------------------------*/
+
+.d_button.green {
+	background:#33c438;
+	background:linear-gradient(top, #48d25b 0%,#33c438 100%);
+	border:1px solid #7ad57d;
+}
+
+.d_button.green::before {
+	background:#2aa92f;
+	border:1px solid #0a890d;
+}	
+
+.d_button.green:hover {
+	background:#48d25b;
+	background:linear-gradient(top, #6bda7a 0%,#48d25b 100%);
+	border:1px solid #7cd97f;
+}
+
+.d_button.green:hover::before {
+	background:#52b956;
+}
+
+/* ------------------------------------
+	ORANGE BUTTON
+---------------------------------------*/
+
+.d_button.orange {
+	color:#f9f9f9;
+	background:#ec6508;
+	background:linear-gradient(top, #fc882b 0%,#ec6508 100%);
+	border:1px solid #f08b47;
+}
+
+.d_button.orange::before {
+	background:#cb5404;
+	border:1px solid #b6650e;
+}	
+
+.d_button.orange:hover {
+	background:#fc882b;
+	background:linear-gradient(top, #fd9e53 0%,#fc882b 100%);
+	border:1px solid #f29a5f;
+}
+
+.d_button.orange:hover::before {
+	background:#d47433;
+}
+
+

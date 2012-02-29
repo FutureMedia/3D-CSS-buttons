@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie ie6 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+	<head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>3d CSS 3 buttons with pseudo-elements</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" type="text/css" href="style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <style>
+        html {
+            height:100%;
+            box-shadow:inset 0px 0px 200px 0px rgba(0, 0, 0, 0.4);
+        }
+        body{
+            background:#e8e8e8 url(back.png) repeat;
+        }
+        .container{
+            width:652px;
+            padding:20px;
+            margin:100px auto;
+        }
+        p {font-family: 'Montserrat', sans-serif;font-weight:400;font-size:18px;}     
+        </style>
+
+        <script src="prefixfree.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="container">
+
+            <p>3d buttons using the A element and CSS 3 only</p>
+
+            <a href="#" class="d_button grey">
+                CLICK ME
+            </a>
+
+            <a href="#" class="d_button black">
+                CLICK ME
+            </a>
+
+            <a href="#" class="d_button green">
+                CLICK ME
+            </a>
+
+            <a href="#" class="d_button orange">
+                CLICK ME
+            </a>
+   
+        </div>
+
+        <div class="container">
+
+            <p>3d buttons using the BUTTON element using and only CSS 3 only</p>
+
+            <button type="submit" name="submit" value="submit" class="d_button grey">
+                CLICK ME
+            </button>
+
+            <button name="reset" type="reset" class="d_button black">
+                CLICK ME
+            </button>
+
+            <button type="submit" name="submit" value="submit" class="d_button green">
+                CLICK ME
+            </button>
+
+            <button name="reset" type="reset" class="d_button orange">
+                CLICK ME
+            </button>
+   
+        </div>
+
+    </body>
+
+</html>
