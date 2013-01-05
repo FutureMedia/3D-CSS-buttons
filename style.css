@@ -91,7 +91,7 @@ a.d_button::before {
 }	
 
 .d_button.black:hover {
-	background:##9c9c9c;
+	background:#9c9c9c;
 	background:linear-gradient(top, #afafaf 0%,#9c9c9c 100%);
 	border:1px solid #a9a9a9;
 }
@@ -250,7 +250,7 @@ a.d_button::before {
 }	
 
 .d_button.black:hover {
-	background:##9c9c9c;
+	background:#9c9c9c;
 	background:linear-gradient(top, #afafaf 0%,#9c9c9c 100%);
 	border:1px solid #a9a9a9;
 }
